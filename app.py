@@ -18,7 +18,9 @@ class CementData(BaseModel):
     Age: int
 
 # Ruta del modelo entrenado
-MODEL_PATH = "C:\\Users\\estad\\OneDrive\\Escritorio\\MLops\\Mlops_models\\adaboost_model.pkl"
+#MODEL_PATH = "C:\\Users\\estad\\OneDrive\\Escritorio\\MLops\\Mlops_models\\adaboost_model.pkl"
+MODEL_PATH = "/app/adaboost_model.pkl"
+
 
 # Cargar el modelo entrenado
 try:
